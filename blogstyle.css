@@ -1,0 +1,13 @@
+body {
+  font-family: "iA Writer Mono", system-ui, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  background-color: rgb(34, 34, 34);
+  color: rgb(243, 236, 236);
+  margin: auto;
+  max-width: 70ch;
+  line-height: 1.8;
+  max-inline-size: 66ch;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
