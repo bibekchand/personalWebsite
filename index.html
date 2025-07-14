@@ -35,7 +35,6 @@
       <nav>
         <ul>
           <li><a href="./index.html">home</a></li>
-          <li><a href="#projects">projects</a></li>
           <li>
             <a href="https://github.com/bibekchand" target="_blank">github</a>
           </li>
@@ -44,16 +43,14 @@
           </li>
           <li>
             <a
-              href="https://www.linkedin.com/in/bibek-chand-7b4112234/"
+              href="archived.html"
               target="_blank"
-              >linkedin</a
+              >archived_resources</a
             >
           </li>
-          <li>
-            <a href="https://www.instagram.com/crap_momo/" target="_blank"
-              >instagram</a
-            >
-          </li>
+            <li>
+              <a href="https://www.linkedin.com/in/bibek-chand-7b4112234/" target="_blank">linkedin</a>
+            </li>
           <li><a href="#credits">credits</a></li>
         </ul>
       </nav>
@@ -64,14 +61,14 @@
         Communication and Information engineering.
       </p>
       <p>
-        I am interested in computers, electronics and everything in between.
+        I am interested in computers, electronics, football and everything in between.
         Checkout my <a href="#projects" class="inside-links">projects</a>.
       </p>
     </div>
     <h1
       style="text-decoration: underline; font-size: 2rem; margin-bottom: 20px"
     >
-      Project
+      Projects
     </h1>
     <div id="projects">
       <div>
@@ -186,7 +183,6 @@
       }
       const links = document.querySelectorAll("a");
       document.addEventListener("mouseover", (e) => {
-        console.log(e.target.tagName);
         if (e.target.tagName == "A") {
           links.forEach((item) => {
             item.style.cssText = `text-decoration-color:${

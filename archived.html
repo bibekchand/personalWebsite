@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Archived Resources</title>
+  <link rel="stylesheet" href="blogstyle.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style>
+    @font-face {
+      font-family: "iA Writer Mono";
+      font-display: swap;
+      src: url(./ia-writer-mono-latin-400-normal.woff2) format("woff2");
+
+    }
+
+
+    * {
+      box-sizing: border-box;
+      list-style: none;
+    }
+
+    ul {
+      cursor: pointer;
+    }
+
+    .archive>p {
+      text-decoration: underline;
+      text-decoration-style: wavy;
+      position: relative;
+      left: 10px;
+    }
+
+    .archive>p:hover {
+      text-decoration-color: aqua;
+
+    }
+
+    .archive {
+      font-size: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    span.content {
+      text-decoration: underline;
+      text-decoration-style: wavy;
+
+    }
+
+    span.content:hover {
+      text-decoration-color: red;
+    }
+
+    a:hover {
+      background-color: rgb(56, 53, 53);
+    }
+    .main{
+      min-height: 90vh;
+    }
+    .footer{
+      position: relative;
+
+    }
+    img{
+      
+      position: absolute;
+      left:68%;
+      top:18px;
+
+    }
+    .star{
+      animation: spin 1.3s;
+      animation-iteration-count: infinite;
+      /* animation-direction:alternate; */
+      animation-timing-function: linear;
+    }
+    @keyframes spin{
+      0%{
+        transform: rotate(0deg) scale(1);
+
+      }
+      50%{
+        transform: rotate(180deg) scale(1.5);
+      }
+
+      100%{
+        transform: rotate(360deg) scale(1);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <ul class="main">
+    <li class="pt-10">
+      <span class="archive""><span class="star">&star;</span><p>Archived Resources</p></span>
+      <ul class=" pl-10">
+    <li> &RightArrow; <span class="content">
+        Web Dev Resources
+      </span>
+      <ul class=" pl-10">
+        <li>
+          &check; <a href="https://www.theodinproject.com/">The Odin Project 🐐</a>
+        </li>
+        <li>
+          &check; <a href="https://www.techinterviewhandbook.org/">Techincal Interview Handbook</a>
+
+        </li>
+        <li>
+          &check; <a href="https://interviewguide.dev/">Interview Guide Handbook</a>
+        </li>
+        <li>
+          &check; <a href="https://www.youtube.com/playlist?list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-">Competitive
+            Programming + DSA course</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul class="pl-10 mt-8">
+    <li>&RightArrow; <span class="content">College Resources</span></li>
+    <ul class="pl-10">
+      <li><a href="https://drive.google.com/drive/folders/1x-he8otkK74lBYpS7bQCuGzKNmpIcMgX?usp=sharing">&check; IOE
+          supplies - Contains all the notes for electronics engineering from I to IV year. 🐐
+        </a></li>
+      <li><a href="https://bctengineeringnotes.blogspot.com/">&check; BCT Engineering Notes 🐐</a></li>
+      <li><a href="httsp://www.overleaf.com">&check; Overleaf.com - Online Latex</a></li>
+    </ul>
+  </ul>
+  <ul class="pl-10 mt-8">
+    <li>&RightArrow; <span class="content">Misc. (Didn't know where to put these)</span></li>
+    <ul class="pl-10">
+      <li><a href="https://linuxjourney.com/">&check; Friendly Beginner's guide to Linux
+        </a></li>
+      <li><a href="https://excalidraw.com/">&check; Excali Draw
+        </a></li>
+    </ul>
+  </ul>
+  </li>
+  </ul>
+      <div class="footer" style="text-align: center; padding: 20px">
+        <footer>
+          Copyright &copy; bibekchand<a href="https://github.com/bibekchand">
+            <img src="images/github-mark-white.png"
+              width="20px" height="20px" style="margin: 5px" /></a>
+        </footer>
+      </div>
+
+</body>
+
+</html>

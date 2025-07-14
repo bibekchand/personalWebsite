@@ -39,10 +39,11 @@ body {
   top: 30px;
 }
 .header-image>img{
-  transform: scale(1.5);
+  transform: scale(1.5) rotateY(-180deg);
   position: absolute;
-  left:20%;
+  left:-20%;
   top:-20%;
+  
 
 }
 img {
