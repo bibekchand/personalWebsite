@@ -1,6 +1,19 @@
+/* ia-writer-mono-latin-400-normal */
+@font-face {
+  font-family: "iA Writer Mono";
+  font-display: swap;
+  src: url(./ia-writer-mono-latin-400-normal.woff2) format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-  font-family: "iA Writer Mono", system-ui, BlinkMacSystemFont, "Segoe UI",
-    Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family:
+    "iA Writer Mono", system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   background-color: rgb(34, 34, 34);
   color: rgb(243, 236, 236);
   margin: auto;
@@ -38,13 +51,11 @@ body {
   position: relative;
   top: 30px;
 }
-.header-image>img{
+.header-image > img {
   transform: scale(1.5) rotateY(-180deg);
   position: absolute;
-  left:-20%;
-  top:-20%;
-  
-
+  left: -20%;
+  top: -20%;
 }
 img {
   max-width: 100%;
@@ -109,8 +120,8 @@ footer img {
   position: absolute;
 }
 
-#projects{
-    display:flex;
-    flex-direction: column;
-    gap:40px;
+#projects {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
